@@ -170,8 +170,8 @@ td {
 }
 
 #img-galeria {
-  width: 400px;
-  height: 200px;
+  width: 100%;
+  height: 30vh;
 }
 
 .vaicontenedor {
