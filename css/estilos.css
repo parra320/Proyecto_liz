@@ -1,0 +1,144 @@
+/*Estilos generales HTML*/
+
+@font-face {
+  font-family: "Merriweath";
+  src: url("/Fuentes/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Corinthia";
+  src: url("/Fuentes/Corinthia-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav#navbar {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+}
+
+a.enlaces {
+  text-decoration: none;
+  color: black;
+  padding: 0 1vw;
+  font-family: "Merriweath";
+  font-size: 30px;
+}
+
+a.enlaces:hover {
+  color: rgb(189, 136, 3);
+}
+
+/*Header_contenedor*/
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---- ----- ----- Inicio, ----- ----- ----- */
+.especialidad_1 {
+  font-size: 20px;
+  width: 96%;
+  height: 80vh;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url(../img/05.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  margin: auto;
+}
+
+.especialidad_1 .contenedor {
+  margin: 0 auto;
+  margin-bottom: 6.25em;
+}
+
+.especialidad_1 .titulo {
+  font-weight: 600;
+  font-size: 3.12em;
+  margin-bottom: 0.1em;
+}
+
+.especialidad_2 {
+  font-size: 20px;
+  width: 96%;
+  height: 80vh;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url(../img/tacos.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  margin: auto;
+}
+
+.especialidad_2 .contenedor {
+  margin: 0 auto;
+  margin-bottom: 6.25em;
+}
+
+#titulo {
+  font-family: "Corinthia";
+  font-size: 50px;
+  color: rgb(189, 136, 3);
+  margin: auto;
+}
+
+div.contenedor_principal {
+  display: flex;
+  align-items: center;
+}
+
+div#contenedor_dual {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 4% 0;
+}
+
+div#container_left {
+  width: 34%;
+  margin: auto;
+}
+
+div#container_right {
+  width: 40%;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+}
+
+#tabla {
+  padding: 4% 0;
+  margin: auto;
+  width: 80%;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  background-color: rgb(224, 222, 90);
+}
+
+td {
+  text-align: center;
+  background-color: rgb(231, 230, 143);
+}
