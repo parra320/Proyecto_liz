@@ -113,25 +113,16 @@
         </div>
       </div>
 
-      
+    
       <!--Contenedor Carrusel / "Menu"-imagenes -->
-      <div class="carrusel">
-        <div class="vaicontenedor">
-            <figure><img src="./img/pozole.jpg"></figure>  <!-- Agregar imagenes -->
-            <figure><img src="./img/quecas.jpg"></figure>
-            <figure><img src="./img/torta.jpg"></figure>
-            <figure><img src="./img/tostada.jpg"></figure>
-            <figure><img src="./img/sopes.jpg"></figure>
-            <figure><img src="./img/05.jpg"></figure>
-		</div>
-	</div>
+    
+     
 
 
 
 
 
-
-      <!--Contenedor "Bebidas"- tabla -->
+      <!-- Contenedor "Bebidas"- tabla -->
       <div class="contenedor_principal" id="Bebidas">
         <div class="default" id="tabla">
           <table border="1" style="width: 100%">
@@ -194,14 +185,92 @@
 
 
 
-    <!--Contenedor Reservación 
-    Aquí se agrega un carrusel con imagenes del lugar y el mapa de la ubicación 
-    Imagenes-izquierda  // Mapa-derecha   *Solo sí es posible -->
-    <div>
+    <!-- Contenedor Reservación 
+    Formulario de Reservación-izquierda  // Mapa-derecha   *Solo sí es posible -->
+   
 
 
+   <!-- Formulario - Datos-Reservación    IZQUIERDA-->
+   <div class="formulario1" id="Form_reser">
+    <h2 id="titulo_form2">Un rinconcito para tí(Haz tu reservación)</h2> 
+    
+    <table border="1" style="width: 100%"> 
+      <li>
+        <label for="hora">Hora:</label> 
+        <select name="hora">
+          <option>4:00pm</option>
+          <option>5:00pm</option>
+          <option>6:00pm</option>
+          <option>7:00pm</option>
+          <option>8:00pm</option>
+          <option>9:00pm</option>
+          <option>10:00pm</option>
+        </select>
+      </li>
+
+      <li> 
+        <label for="numero">Personas:</label>
+        <select name="numero">
+           <option>1 persona</option>
+           <option>2 personas</option>
+           <option>3 personas</option>
+          <option>4 o más personas</option>
+        </select>  
+       </li>
+
+       <li>
+        <label for="name">Número de personas:</label>
+        <input type="text" id="personas" name="num_personas" />
+       </li>      
+    </table>
+
+   </div>
+
+
+
+
+
+
+
+   <!-- Formulario - Datos-Contacto   DERECHA-->
+    <div class="formulario2" id="Form_conta">
+      <h2 id="titulo_form">Datos de Contacto</h2>
+
+      <form action="/my-handling-form-page" method="post">
+        <ul>
+
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+
+          <li>
+            <label for="mail">Télefono:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+
+          <li class="button">
+            <button type="submit">Terminar reservación</button>
+          </li>
+        </ul>
+      </form>
 
     </div> 
+
+
+
+
+
 
 
     </main>
