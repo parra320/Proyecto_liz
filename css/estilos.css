@@ -17,8 +17,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: url("/img/fondo.png");
+}
+
 nav#navbar {
-  background-color: white;
+  background-image: url("/img/fondo.png");
   width: 100%;
   position: sticky;
   display: flex;
@@ -134,6 +138,14 @@ table {
   margin: auto;
 }
 
+#celdas {
+  margin: 4px;
+}
+
+table tr td {
+  padding: 10px;
+}
+
 th {
   background-color: rgba(90, 224, 224, 0.945);
 }
@@ -150,7 +162,14 @@ td {
   margin: auto;
 }
 
-figure#imagenes {
+#imagenes {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#img-galeria {
   width: 400px;
   height: 200px;
 }
