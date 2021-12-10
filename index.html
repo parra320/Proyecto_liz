@@ -1,243 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/estilos.css" />
-    <link rel="shortcut icon" href="img/logo2-1.png" />
-    <title>Hijos del Maíz</title>
-  </head>
 
-  <body>
-    <nav id="navbar">
-      <div style="width: 20%">
-        <center>
-          <img src="img/logo.png" style="width: 7em; height: 7em" />
-        </center>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="shortcut icon" href="img/logo2-1.png" />
+  <title>Hijos del Maíz</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div style="width: 20%">
+      <center>
+        <img src="img/logo.png" style="width: 7em; height: 7em" />
+      </center>
+    </div>
+
+    <!--Contenedor navegación  -->
+    <div class="contenedor_principal">
+      <a href="#Inicio" class="enlaces">Inicio</a>
+      <a href="#Nosotros" class="enlaces">Nosotros</a>
+      <a href="#Menu" class="enlaces">Menú</a>
+      <a href="#" class="enlaces">Galería</a>
+      <a href="#" class="enlaces">Reservación</a>
+      <a href="#" class="enlaces">Contactanos</a>
+    </div>
+  </nav>
+
+  <!--Contenedor cover, imagen principal  -->
+  <main>
+    <div id="Inicio" class="especialidad_1">
+      <div class="contenedor">
+        <h3 class="titulo">Bienvenidos... Hijos del Maíz</h3>
       </div>
+    </div>
 
-      <!--Contenedor navegación  -->
-      <div class="contenedor_principal">
-        <a href="#Inicio" class="enlaces">Inicio</a>
-        <a href="#Nosotros" class="enlaces">Nosotros</a>
-        <a href="#Menu" class="enlaces">Menú</a>
-        <a href="#" class="enlaces">Galería</a>
-        <a href="#" class="enlaces">Reservación</a>
-        <a href="#" class="enlaces">Contactanos</a>
-      </div>
-    </nav>
+    <!--Contenedor "Nosotros"  -->
+    <div class="contenedor_principal" id="Nosotros">
+      <div id="contenedor_dual">
+        <div id="container_left">
+          <h1 id="titulo">Quienes Somos</h1>
+          <p>
+            "Hijos del maíz" es tu mejor alternativa para recordar porque es
+            genial ser mexicano, ven y degusta con nosotros una gran variedad
+            de sabores típicos mexicanos en compañía de los que más quieres.
+            <br />
+            <br />
+          </p>
+        </div>
 
-    <!--Contenedor cover, imagen principal  -->
-    <main>
-      <div id="Inicio" class="especialidad_1">
-        <div class="contenedor">
-          <h3 class="titulo">Ajoloquesadillas</h3>
+        <!--Contenedor "Nosotros"-imagen  -->
+        <div id="container_right">
+          <img src="img/menu.jpg" style="width: 100%" />
         </div>
       </div>
+    </div>
 
-      <!--Contenedor "Nosotros"  -->
-      <div class="contenedor_principal" id="Nosotros">
-        <div id="contenedor_dual">
-          <div id="container_left">
-            <h1 id="titulo">Quienes Somos</h1>
-            <p>
-              "Hijos del maíz" es tu mejor alternativa para recordar porque es
-              genial ser mexicano, ven y degusta con nosotros una gran variedad
-              de sabores típicos mexicanos en compañía de los que más quieres.
-              <br />
-              <br />
-            </p>
-          </div>
 
-          <!--Contenedor "Nosotros"-imagen  -->
-          <div id="container_right">
-            <img src="img/menu.jpg" style="width: 100%" />
-          </div>
-        </div>
-      </div>
-
-      <div id="Inicio" class="especialidad_2">
-        <div class="contenedor"></div>
-      </div>
-
-      <!--Contenedor "Menu"- tabla -->
-      <div class="contenedor_principal" id="Menu">
-        <!--  <img class="d-block mx-auto mb-4" src="./img/LogotipoI.png" alt="" width="72" height="57">  
+    <!--Contenedor "Menu"- tabla -->
+    <div class="contenedor_principal" id="Menu">
+      <!--  <img class="d-block mx-auto mb-4" src="./img/LogotipoI.png" alt="" width="72" height="57">  
       Para la imagen del Menu-->
 
-        <div class="default" id="tabla">
-          <table border="1" style="width: 100%">
-            <caption>
-              <h1 id="titulo">Nuestro Menú</h1>
-            </caption>
+      <div id="tabla" >
+        <table style="width: 100%;">
+          <caption>
+            <h1 id="titulo">Nuestro Menú</h1>
+          </caption>
 
-            <tr>
-              <th>Muy Mexicano</th>
-              <th>Barriga llena</th>
-              <th>Sopas/Caldos</th>
-              <th>Tostadas</th>
-              <th>Tacos</th>
-              <th>Tortas</th>
-            </tr>
-
-            <tr>
-              <td>Quesadillas</td>
-              <td>Enchiladas</td>
-              <td>Caldo Tlalpeño</td>
-              <td>Tierra-Cielo-Mar</td>
-              <td>Bistec</td>
-              <td>Pierna</td>
-            </tr>
-
-            <tr>
-              <td>Huaraches</td>
-              <td>Chilaquiles</td>
-              <td>Pollo</td>
-              <td>Cochinita</td>
-              <td>Pastor</td>
-              <td>Milanesa</td>
-            </tr>
-
-            <tr>
-              <td>Gorditas</td>
-              <td>Tacos Dorados</td>
-              <td>Camarón</td>
-              <td>Picadillo</td>
-              <td>Suadero</td>
-              <td>Salchicha</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-
-      <!--Contenedor Carrusel / "Menu"-imagenes -->
-      <div class="carrusel">
-        <div class="vaicontenedor">
-          <figure id="imagenes"><img src="./img/quecas.jpg" /></figure>
-          <figure id="imagenes"><img src="./img/pozole.jpg" /></figure>
-          <figure id="imagenes"><img src="./img/torta.jpg" /></figure>
-          <figure id="imagenes"><img src="./img/tostada.jpg" /></figure>
-          <figure id="imagenes"><img src="./img/tacos-carne.jpg" /></figure>
-          <figure id="imagenes"><img src="./img/05.jpg" /></figure>
-        </div>
-      </div>
-
-      <!--Contenedor "Bebidas"- tabla -->
-      <div class="contenedor_principal" id="Bebidas">
-        <div class="default" id="tabla">
-          <table border="1" style="width: 100%">
-            <caption>
-              <h1 id="titulo">Bebidas</h1>
-            </caption>
-
-            <tr>
-              <th>Básicos</th>
-              <th>Shots</th>
-              <th>Cervezas</th>
-              <th>Cocteles</th>
-              <th>Destilados</th>
-              <th>Otros</th>
-            </tr>
-
-            <tr>
-              <td>Agua Natural</td>
-              <!-- Primero en la lista  -->
-              <td>Baby Mango</td>
-              <!-- Shots  -->
-              <td>Carta Blanca</td>
-              <!--Cerveza  -->
-              <td>Margarita</td>
-              <!--Cocteles  -->
-              <td>Whisky</td>
-              <!--Destilados  -->
-              <td>Bebidas Calientes</td>
-              <!--Otros  -->
-            </tr>
-
-            <tr>
-              <td>Jugo del Día</td>
-              <!-- Primero en la lista  -->
-              <td>Piquete de Vibora</td>
-              <!--Shots -->
-              <td>Corona</td>
-              <!--Cerveza  -->
-              <td>Mezcalito</td>
-              <!--Cocteles  -->
-              <td>Mezcal</td>
-              <!--Destilados  -->
-              <td>*Café</td>
-              <!--Otros  -->
-            </tr>
-
-            <tr>
-              <td>Refresco</td>
-              <!-- Primero en la lista  -->
-              <td>Perla Rosa</td>
-              <!--Shots  -->
-              <td>Tecate</td>
-              <!--Cerveza  -->
-              <td>Daiquiri</td>
-              <!--Cocteles  -->
-              <td>Ron</td>
-              <!--Destilados  -->
-              <td>*Ponche (Solo por temporada)</td>
-              <!--Otros  -->
-            </tr>
-
-            <tr>
-              <td></td>
-              <!-- Primero en la lista  -->
-              <td>Piña Colada</td>
-              <!--Shots  -->
-              <td>Bohemia</td>
-              <!--Cerveza  -->
-              <td>Clamato preparado</td>
-              <!--Cocteles  -->
-              <td>Vodka</td>
-              <!--Destilados  -->
-              <td></td>
-              <!--Otros  -->
-            </tr>
-          </table>
-        </div>
-      </div>
-
-      <!--Contenedor "Postres"- tabla -->
-
-      <!--Contenedor Galería -->
-      <div id="galeria">
-        <table style="width: 100%"
-          <tr id="celdas">
-            <td><img id="img-galeria" src="img/pozole.jpg" /></td>
-            <td><img id="img-galeria" src="img/sopes.jpg" /></td>
-            <td><img id="img-galeria" src="img/tacos.jpg" /></td>
-          </tr>
-          <td colspan="2">
-            <img style="height: 55vh; width: 100%" src="img/torta.jpg" />
-          </td>
-          <td>
-            <img style="height: 55vh; width: 100%" src="img/tostada.jpg" />
-          </td>
           <tr>
-            <td><img id="img-galeria" src="img/quecas.jpg" /></td>
-            <td><img id="img-galeria" src="img/tacos-carne.jpg" /></td>
-            <td><img id="img-galeria" src="img/05.jpg" /></td>
+            <th>Muy Mexicano</th>
+            <th>Barriga llena</th>
+            <th>Sopas/Caldos</th>
+            <th>Tostadas</th>
+            <th>Tacos</th>
+            <th>Tortas</th>
+          </tr>
+
+          <tr style="background-color: rgba(243, 149, 62, 0.3);">
+            <td>Quesadillas</td>
+            <td>Enchiladas</td>
+            <td>Caldo Tlalpeño</td>
+            <td>Tierra-Cielo-Mar</td>
+            <td>Bistec</td>
+            <td>Pierna</td>
+          </tr>
+
+          <tr  style="background-color: rgba(243, 149, 62, 0.45);">
+            <td>Huaraches</td>
+            <td>Chilaquiles</td>
+            <td>Pollo</td>
+            <td>Cochinita</td>
+            <td>Pastor</td>
+            <td>Milanesa</td>
+          </tr>
+
+          <tr  style="background-color: rgba(243, 149, 62, 0.3);">
+            <td>Gorditas</td>
+            <td>Tacos Dorados</td>
+            <td>Camarón</td>
+            <td>Picadillo</td>
+            <td>Suadero</td>
+            <td>Salchicha</td>
           </tr>
         </table>
       </div>
+    </div>
 
-      <!--Contenedor Reservación 
-    Aquí se agrega un carrusel con imagenes del lugar y el mapa de la ubicación 
-    Imagenes-izquierda  // Mapa-derecha   *Solo sí es posible -->
-      <div></div>
-    </main>
+    <!--Contenedor Carrusel / "Menu"-imagenes -->
+    <div class="carrusel">
+      <div class="vaicontenedor">
+        <figure id="imagenes"><img src="./img/quecas.jpg" /></figure>
+        <figure id="imagenes"><img src="./img/pozole.jpg" /></figure>
+        <figure id="imagenes"><img src="./img/torta.jpg" /></figure>
+        <figure id="imagenes"><img src="./img/tostada.jpg" /></figure>
+        <figure id="imagenes"><img src="./img/tacos-carne.jpg" /></figure>
+        <figure id="imagenes"><img src="./img/05.jpg" /></figure>
+      </div>
+    </div>
 
-    <!--Pie de página -->
-    <footer class="">
-      <p>
-        Hijos del Maíz &copy; PROGRAMACIÓN WEB 1507 Hernández Piedras Lizeth
-        Evelyn
-      </p>
-    </footer>
-  </body>
+    <!--Contenedor "Bebidas"- tabla -->
+    <div class="contenedor_principal" id="Bebidas">
+      <div class="default" id="tabla">
+        <table style="width: 100%">
+          <caption>
+            <h1 id="titulo">Bebidas</h1>
+          </caption>
+
+          <tr>
+            <th>Básicos</th>
+            <th>Shots</th>
+            <th>Cervezas</th>
+            <th>Cocteles</th>
+            <th>Destilados</th>
+            <th>Otros</th>
+          </tr>
+
+          <tr style="background-color: rgba(243, 149, 62, 0.3);">
+            <td>Agua Natural</td>
+            <!-- Primero en la lista  -->
+            <td>Baby Mango</td>
+            <!-- Shots  -->
+            <td>Carta Blanca</td>
+            <!--Cerveza  -->
+            <td>Margarita</td>
+            <!--Cocteles  -->
+            <td>Whisky</td>
+            <!--Destilados  -->
+            <td>Bebidas Calientes</td>
+            <!--Otros  -->
+          </tr>
+
+          <tr style="background-color: rgba(243, 149, 62, 0.45);">
+            <td>Jugo del Día</td>
+            <!-- Primero en la lista  -->
+            <td>Piquete de Vibora</td>
+            <!--Shots -->
+            <td>Corona</td>
+            <!--Cerveza  -->
+            <td>Mezcalito</td>
+            <!--Cocteles  -->
+            <td>Mezcal</td>
+            <!--Destilados  -->
+            <td>*Café</td>
+            <!--Otros  -->
+          </tr>
+
+          <tr style="background-color: rgba(243, 149, 62, 0.3);">
+            <td>Refresco</td>
+            <!-- Primero en la lista  -->
+            <td>Perla Rosa</td>
+            <!--Shots  -->
+            <td>Tecate</td>
+            <!--Cerveza  -->
+            <td>Daiquiri</td>
+            <!--Cocteles  -->
+            <td>Ron</td>
+            <!--Destilados  -->
+            <td>*Ponche (Solo por temporada)</td>
+            <!--Otros  -->
+          </tr>
+
+          <tr style="background-color: rgba(243, 149, 62, 0.45);">
+            <td></td>
+            <!-- Primero en la lista  -->
+            <td>Piña Colada</td>
+            <!--Shots  -->
+            <td>Bohemia</td>
+            <!--Cerveza  -->
+            <td>Clamato preparado</td>
+            <!--Cocteles  -->
+            <td>Vodka</td>
+            <!--Destilados  -->
+            <td></td>
+            <!--Otros  -->
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!--Contenedor "Postres"- tabla -->
+    <div class="contenedor_principal" id="Postres">
+      <table>
+        <caption>
+          <h1 id="titulo">Postres</h1>
+        </caption>
+
+        <tr>
+          <th>Ajolo-pan (pan de elote/queso)</th>
+        </tr>
+        <tr style="background-color: rgba(243, 149, 62, 0.3);">
+          <td>Rebanada de Pastel</td>
+        </tr>
+        <tr style="background-color: rgba(243, 149, 62, 0.45);">
+          <td>Churros</td>
+        </tr>
+        <tr style="background-color: rgba(243, 149, 62, 0.3);">
+          <td>Fresas con crema</td>
+        </tr>
+        <tr style="background-color: rgba(243, 149, 62, 0.45);">
+          <td>Gelatina de mosaico</td>
+        </tr>
+
+      </table>
+
+
+    </div>
+
+
+    <!--Contenedor Galería -->
+    <div id="galeria">
+      <table style="width: 100%" <tr id="celdas">
+        <td><img id="img-galeria" src="img/pozole.jpg" /></td>
+        <td><img id="img-galeria" src="img/sopes.jpg" /></td>
+        <td><img id="img-galeria" src="img/tacos.jpg" /></td>
+        </tr>
+        <td colspan="2">
+          <img style="height: 55vh; width: 100%" src="img/torta.jpg" />
+        </td>
+        <td>
+          <img style="height: 55vh; width: 100%" src="img/tostada.jpg" />
+        </td>
+        <tr>
+          <td><img id="img-galeria" src="img/quecas.jpg" /></td>
+          <td><img id="img-galeria" src="img/tacos-carne.jpg" /></td>
+          <td><img id="img-galeria" src="img/05.jpg" /></td>
+        </tr>
+      </table>
+    </div>
+
+    <!--Contenedor Reservación 
+        Formulario de Reservación-izquierda  // Mapa-derecha   *Solo sí es posible -->
+
+
+
+    <!-- Formulario - Datos-Reservación    IZQUIERDA-->
+    <div id="Formulario">
+      <div class="formulario1">
+      <h2>Un rinconcito para tí(Haz tu reservación)</h2>
+
+          <div id="Form">
+            <label>Hora:</label>
+          <select>
+            <option>4:00pm</option>
+            <option>5:00pm</option>
+            <option>6:00pm</option>
+            <option>7:00pm</option>
+            <option>8:00pm</option>
+            <option>9:00pm</option>
+            <option>10:00pm</option>
+          </select>
+          </div>
+
+          <div id="Form">
+            <label>Personas:</label>
+          <select>
+            <option>1 persona</option>
+            <option>2 personas</option>
+            <option>3 personas</option>
+            <option>4 o más personas</option>
+          </select>
+          </div>
+
+          <div id="Form">
+            <label style="width: auto;">Número de Personas:</label>
+            <input type="text" style="width: 5%" />
+          </div>
+
+    </div>
+
+    <!-- Formulario - Datos-Contacto   DERECHA-->
+    <div class="formulario1">
+      <h2>Datos de Contacto</h2>
+      <br>
+      <form>
+        <ul>
+
+          <li>
+            <label>Name:</label>
+            <input type="text"/>
+          </li>
+
+          <li>
+            <label>E-mail:</label>
+            <input type="email"/>
+          </li>
+
+          <li>
+            <label>Télefono:</label>
+            <input type="email"/>
+          </li>
+
+          <li>
+            <label>Message:</label>
+            <textarea></textarea>
+          </li>
+
+          <li class="button">
+            <button type="submit">Terminar reservación</button>
+          </li>
+        </ul>
+      </form>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <!--Pie de página -->
+  <footer class="">
+    <p>
+      Hijos del Maíz &copy; PROGRAMACIÓN WEB 1507 Hernández Piedras Lizeth
+      Evelyn
+    </p>
+  </footer>
+</body>
+
 </html>
