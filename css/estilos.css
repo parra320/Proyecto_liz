@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Merriweath";
-  src: url(/Fuentes/Merriweather-Regular.ttf);
+  src: url("../Fuentes/Merriweather-Regular.ttf");
 }
 
 @font-face {
   font-family: "Corinthia";
-  src: url(/Fuentes/Corinthia-Bold.ttf);
+  src: url("../Fuentes/Corinthia-Bold.ttf");
 }
 
 * {
@@ -18,11 +18,11 @@
 }
 
 body {
-  background-image: url("/img/fondo.png");
+  background-image: url("../img/fondo.png");
 }
 
 nav#navbar {
-  background-image: url("/img/fondo.png");
+  background-image: url("../img/fondo.png");
   width: 100%;
   position: sticky;
   display: flex;
@@ -40,7 +40,7 @@ a.enlaces {
 }
 
 a.enlaces:hover {
-  color: rgb(189, 136, 3);
+  color: rgba(189, 3, 3, 0.719);
 }
 
 /*Header_contenedor*/
@@ -98,7 +98,7 @@ a.enlaces:hover {
 #titulo {
   font-family: "Corinthia";
   font-size: 50px;
-  color: rgb(189, 136, 3);
+  color: rgba(189, 3, 3, 0.719);
   margin: auto;
 }
 
