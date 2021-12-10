@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Merriweath";
-  src: url("../Fuentes/Merriweather-Regular.ttf");
+  src: url("/../Fuentes/Merriweather-Regular.ttf");
 }
 
 @font-face {
   font-family: "Corinthia";
-  src: url("../Fuentes/Corinthia-Bold.ttf");
+  src: url("/../Fuentes/Corinthia-Bold.ttf");
 }
 
 * {
@@ -18,11 +18,11 @@
 }
 
 body {
-  background-image: url("../img/fondo.png");
+  background-image: url("/../img/fondo.png");
 }
 
 nav#navbar {
-  background-image: url("../img/fondo.png");
+  background-image: url("/../img/fondo.png");
   width: 100%;
   position: sticky;
   display: flex;
