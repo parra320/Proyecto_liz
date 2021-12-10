@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Merriweath";
-  src: url("/Fuentes/Merriweather-Regular.ttf");
+  src: url("Fuentes/Merriweather-Regular.ttf");
 }
 
 @font-face {
   font-family: "Corinthia";
-  src: url("/Fuentes/Corinthia-Bold.ttf");
+  src: url("Fuentes/Corinthia-Bold.ttf");
 }
 
 * {
@@ -28,6 +28,7 @@ nav#navbar {
   display: flex;
   flex-direction: row;
   top: 0;
+  z-index: 3;
 }
 
 a.enlaces {
